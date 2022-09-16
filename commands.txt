@@ -1,0 +1,40 @@
+create a directory
+--> mkdir dir_name
+
+
+create a file
+--> touch file_name
+
+
+print working directory
+--> pwd
+
+
+rename a file
+--> mv file_name new_name
+
+
+listing contents(files & folders) of a directory
+--> ls
+outputing files & folders as a list
+--> ls -l
+examples of a file and a folder
+-rw-r--r--   1 lenns  372 Sep 16 10:34 commands.txt // a file starts with '-'
+drwxr-xr-x  10 lenns  320 Sep 16 10:27 simple_scripts // a directory starts with 'd'
+
+
+moving a files or folders
+--> mv file_to_move dir_to_move_to 
+--> example: mv testfile.txt newFolder/
+
+
+editing a file using vim
+--> vim file_name
+
+
+Granting executable permissions to a file
+--> chmod 755 file_name.sh
+
+
+running an executable script file
+--> ./file_name.sh
